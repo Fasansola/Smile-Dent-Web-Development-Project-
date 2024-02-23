@@ -386,7 +386,7 @@ footer {
 /* FACILITY */
 
 .facility {
-    margin-bottom: 120px;
+    margin: 120px 0;
 }
 
 .facility-img {
@@ -470,7 +470,7 @@ footer {
     }
 
     .facility {
-        margin-bottom: 100px;
+        margin: 100px 0;
     }
 
     .facility-img {
@@ -550,7 +550,7 @@ footer {
     }
 
     .facility {
-        margin-bottom: 80px;
+        margin: 80px 0;
     }
 
     .content {
@@ -599,7 +599,7 @@ footer {
     }
 
     .facility {
-        margin-bottom: 60px;
+        margin: 60px 0;
     }
 
     /* HERO */
@@ -832,5 +832,96 @@ footer {
     .rating-options {
         grid-template-columns: 1fr;
         row-gap: 20px;
+    }
+}
+
+
+/* ABOUT US PAGE */
+
+
+.about-space {
+    padding: 80px 80px 80px 80px;
+    background-color: #f7fafd;
+    margin-top: 100px;
+}
+
+.about-space-img {
+    position: relative;
+    background: url(/images/about/about-us-page-video-cover.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    z-index: 3;
+}
+
+.about-space-img::before {
+    content: "";
+    border-radius: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+
+.about-specs {
+    column-gap: 75px;
+}
+
+
+.big-num-text {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 54px;
+}
+
+
+.big-num-text-year {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dentists {
+    margin-top: 40px;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.dentist-name {
+    margin-top: 20px;
+    margin-bottom: 5px !important;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24417c;
+    fill: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .about-space {
+        padding: 50px 40px 50px 40px;
+        background-color: #f7fafd;
+        margin-top: 100px;
+    }
+
+    .about-space-img {
+        position: relative;
+        background: url(/images/about/about-us-page-video-cover.webp);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 350px;
+        z-index: 3;
     }
 }
