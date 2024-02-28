@@ -34,6 +34,7 @@
 
     <script defer src="./script/script.js"></script>
   </head>
+
   <body>
     <!-- MOBILE MENU -->
     <div class="w-100 d-flex justify-content-end menu-bg">
@@ -50,7 +51,7 @@
             d="M1 15a1 1 0 01-.71-.29 1 1 0 010-1.41l5.8-5.8-5.8-5.8A1 1 0 011.7.29l5.8 5.8 5.8-5.8a1 1 0 011.41 1.41l-5.8 5.8 5.8 5.8a1 1 0 01-1.41 1.41l-5.8-5.8-5.8 5.8A1 1 0 011 15z"
           ></path>
         </svg>
-        <a href="./home.html"
+        <a href="./index.html"
           ><img
             src="./images/home/logo-light.svg"
             alt="brand logo"
@@ -58,11 +59,11 @@
         /></a>
         <nav class="mobile-nav">
           <ul>
-            <a href="./home.html"><li>Home</li></a>
-            <a href="./services.html"><li>Services</li></a>
-            <a href="./about.html"><li>About Us</li></a>
-            <a href="./news.html"><li>News</li></a>
-            <a href="./contact.html"><li>Contact</li></a>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./contact.html">Contact</a></li>
           </ul>
         </nav>
 
@@ -120,16 +121,16 @@
     <!-- HEADER -->
     <header class="w-100 sticky-top">
       <div class="header container desktop">
-        <a href="./home.html"
+        <a href="./index.html"
           ><img src="./images/home/logo.svg" alt="brand logo" class="logo"
         /></a>
         <nav>
           <ul>
-            <a href="./home.html"><li>Home</li></a>
-            <a href="./services.html"><li>Services</li></a>
-            <a href="./about.html"><li>About Us</li></a>
-            <a href="./news.html"><li>News</li></a>
-            <a href="./contact.html"><li>Contact</li></a>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./contact.html">Contact</a></li>
           </ul>
         </nav>
         <a href="tel:+7788043466"
@@ -141,7 +142,7 @@
 
       <!-- MOBILE RESPONISVE -->
       <div class="header container mobile">
-        <a href="./home.html"
+        <a href="./index.html"
           ><img src="./images/home/logo.svg" alt="brand logo" class="logo"
         /></a>
         <svg
@@ -162,6 +163,7 @@
       </div>
     </header>
 
+    <!-- BODY -->
     <main class="container">
       <!-- HERO -->
       <section class="container hero">
@@ -296,8 +298,8 @@
                 velit lectus quam. Etiam morbi turpis senectus vitae.
               </p>
             </div>
-            <a href="./services.html"
-              ><p>
+            <a href="./services.html">
+              <p>
                 LEARN MORE
                 <img
                   alt=""
@@ -323,8 +325,8 @@
                 velit lectus quam. Etiam morbi turpis senectus vitae.
               </p>
             </div>
-            <a href="./services.html"
-              ><p>
+            <a href="./services.html">
+              <p>
                 LEARN MORE
                 <img
                   alt=""
@@ -350,8 +352,8 @@
                 velit lectus quam. Etiam morbi turpis senectus vitae.
               </p>
             </div>
-            <a href="./services.html"
-              ><p>
+            <a href="./services.html">
+              <p>
                 LEARN MORE
                 <img
                   alt=""
@@ -600,18 +602,18 @@
         </div>
       </section>
     </main>
-
-    <section
+    <div
       style="
         height: 200px;
         background-color: #f7fafd;
         z-index: 2;
         position: relative;
       "
-    ></section>
+    ></div>
 
+    <!-- FOOTER -->
     <footer>
-      <section class="container" style="padding: 40px 0">
+      <div class="container" style="padding: 40px 0">
         <div class="row footer">
           <div class="col-lg col-12 text-lg-start text-center">
             <h4>About Us</h4>
@@ -635,8 +637,8 @@
             </p>
           </div>
         </div>
-      </section>
-      <section class="container text-center p" style="padding: 20px 0">
+      </div>
+      <div class="container text-center p" style="padding: 20px 0">
         <p>
           Designed by
           <b
@@ -646,7 +648,7 @@
           >
           <br />(Recreated By Fasan Olusola for <b>CS50 WEEK 8 PSET</b>)
         </p>
-      </section>
+      </div>
     </footer>
   </body>
 </html>

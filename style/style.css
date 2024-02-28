@@ -212,6 +212,14 @@ nav li {
     color: white;
 }
 
+li a {
+    color: #355575;
+}
+
+.mobile-nav li a {
+    color: white;
+}
+
 .mobile-nav li:hover {
     color: #ffe8da;
 }
