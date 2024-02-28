@@ -1,3 +1,5 @@
+#MY WEEK 8 CS50 PROJECT (HTML, CSS & JAVASCRIPT)
+
 ## HTML Tags
 * header
 * main
