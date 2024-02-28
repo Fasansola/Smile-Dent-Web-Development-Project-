@@ -57,7 +57,6 @@ h6 {
 
 .dark-bg {
     background-color: #24417c !important;
-    border-radius: 40px;
     padding: 80px;
 }
 
@@ -192,6 +191,90 @@ nav li {
 #cta-info {
     font-size: 12px;
     font-weight: lighter;
+}
+
+
+
+/* TABLETS & MOBILE NAVIGATION */
+
+.menu-bg {
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1021;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.mobile-nav li {
+    display: block;
+    padding: 5px 0;
+    color: white;
+}
+
+.mobile-nav li:hover {
+    color: #ffe8da;
+}
+
+.mobile-nav ul {
+    padding: 10px 0;
+}
+
+.mobile-navigator p {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.close-menu {
+    fill: white;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.close-menu:hover {
+    transform: rotate(180deg);
+}
+
+.mobile-navigator {
+    position: relative;
+    width: auto;
+    z-index: 1022;
+    height: 100vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 10% 25% 0px 7% !important;
+}
+
+.mobile-navigator .cta {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px 30px;
+}
+
+.mobile-navigator #cta-info {
+    font-size: 12px;
+}
+
+
+.mobile-navigator .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    fill: #24417c;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+
+.mobile-navigator .social-links:hover {
+    background-color: #ffe8da;
 }
 
 
